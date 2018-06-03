@@ -14,4 +14,4 @@ destructivelyPrependKitten(name){
   return kittens;
 }
 
-destructivelyPrependKitten(Ralph);
+destructivelyPrependKitten("Bob");
