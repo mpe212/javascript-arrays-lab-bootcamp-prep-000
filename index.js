@@ -16,14 +16,14 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 
 // console.log(destructivelyPrependKitten("Bob"));
 
-function destructivelyRemoveLastKitten(){
-  kittens.pop();
-  return kittens;
-}
-console.log(destructivelyRemoveLastKitten(kittens));
+// function destructivelyRemoveLastKitten(){
+//   kittens.pop();
+//   return kittens;
+// }
+// console.log(destructivelyRemoveLastKitten(kittens));
 
-destructivelyRemoveFirstKitten(){
-  kittens.unshift();
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
   return kittens;
 }
 console.log(destructivelyRemoveFirstKitten(kittens));
