@@ -16,3 +16,8 @@ destructivelyPrependKitten(name){
 
 destructivelyPrependKitten("Bob");
 
+destructivelyRemoveLastKitten(){
+  
+}
+
+destructivelyRemoveFirstKitten()
