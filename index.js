@@ -34,7 +34,8 @@ appendKitten(name){
 appendKitten("Broom");
 
 prependKitten(name){
-  
+  var newKittens = [name, ...kittens];
+  return newKittens;
 }
 
 prependKitten("Arnold");
