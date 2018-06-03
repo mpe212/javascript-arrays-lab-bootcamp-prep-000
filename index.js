@@ -9,12 +9,12 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 
 // console.log(destructivelyAppendKitten('Ralph'));
 
-function destructivelyPrependKitten(name){
-  kittens.unshift(name);
-  return kittens;
-}
+// function destructivelyPrependKitten(name){
+//   kittens.unshift(name);
+//   return kittens;
+// }
 
-console.log(destructivelyPrependKitten("Bob"));
+// console.log(destructivelyPrependKitten("Bob"));
 
 // destructivelyRemoveLastKitten(){
 //   kittens.pop();
