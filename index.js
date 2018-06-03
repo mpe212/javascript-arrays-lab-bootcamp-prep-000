@@ -22,10 +22,11 @@ function destructivelyRemoveLastKitten(){
 }
 console.log(destructivelyRemoveLastKitten(kittens));
 
-// destructivelyRemoveFirstKitten(){
-//   kittens.unshift();
-//   return kittens;
-// }
+destructivelyRemoveFirstKitten(){
+  kittens.unshift();
+  return kittens;
+}
+console.log(destructivelyRemoveFirstKitten(kittens));
 
 // appendKitten(name){
 //   var newKittens = [...kittens, name];
