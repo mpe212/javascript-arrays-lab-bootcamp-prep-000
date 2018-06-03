@@ -17,7 +17,8 @@ destructivelyPrependKitten(name){
 destructivelyPrependKitten("Bob");
 
 destructivelyRemoveLastKitten(){
-  
+  kittens.pop();
+  return kittens;
 }
 
 destructivelyRemoveFirstKitten()
