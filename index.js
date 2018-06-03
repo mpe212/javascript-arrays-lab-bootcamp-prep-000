@@ -56,5 +56,6 @@ function removeFirstKitten(){
   return newKittens;
 }
 
+removeFirstKitten();
 
 
