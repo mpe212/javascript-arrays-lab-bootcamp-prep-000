@@ -42,12 +42,12 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 
 // console.log(prependKitten("Arnold"));
 
-function removeLastKitten(){
-  var newKittens = kittens.slice(0,kittens.length-1);
-  console.log(newKittens);
-  return newKittens;
-}
-removeLastKitten();
+// function removeLastKitten(){
+//   var newKittens = kittens.slice(0,kittens.length-1);
+//   console.log(newKittens);
+//   return newKittens;
+// }
+// removeLastKitten();
 
 
 function removeFirstKitten(){
