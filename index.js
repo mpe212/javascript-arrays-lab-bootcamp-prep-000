@@ -33,5 +33,11 @@ appendKitten(name){
 
 appendKitten("Broom");
 
+prependKitten(name){
+  
+}
+
+prependKitten("Arnold");
+
 
 
