@@ -22,11 +22,11 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 // }
 // console.log(destructivelyRemoveLastKitten(kittens));
 
-function destructivelyRemoveFirstKitten(){
-  kittens.shift();
-  return kittens;
-}
-console.log(destructivelyRemoveFirstKitten(kittens));
+// function destructivelyRemoveFirstKitten(){
+//   kittens.shift();
+//   return kittens;
+// }
+// console.log(destructivelyRemoveFirstKitten(kittens));
 
 // appendKitten(name){
 //   var newKittens = [...kittens, name];
