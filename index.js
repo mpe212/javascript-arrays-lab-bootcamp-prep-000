@@ -16,10 +16,10 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 
 // console.log(destructivelyPrependKitten("Bob"));
 
-// destructivelyRemoveLastKitten(){
-//   kittens.pop();
-//   return kittens;
-// }
+destructivelyRemoveLastKitten(){
+  kittens.pop();
+  return kittens;
+}
 
 // destructivelyRemoveFirstKitten(){
 //   kittens.unshift();
