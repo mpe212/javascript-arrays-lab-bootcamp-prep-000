@@ -9,12 +9,12 @@ function destructivelyAppendKitten(name){
 
 console.log(destructivelyAppendKitten('Ralph'));
 
-// destructivelyPrependKitten(name){
-//   kittens.shift(name);
-//   return kittens;
-// }
+function destructivelyPrependKitten(name){
+  kittens.shift(name);
+  return kittens;
+}
 
-// destructivelyPrependKitten("Bob");
+destructivelyPrependKitten("Bob");
 
 // destructivelyRemoveLastKitten(){
 //   kittens.pop();
