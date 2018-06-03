@@ -42,7 +42,7 @@ prependKitten("Arnold");
 
 removeLastKitten(){
   var newKittens = 
-    return newKittens;
+  return newKittens;
 }
 
 removeFirstKitten(){
