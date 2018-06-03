@@ -9,7 +9,7 @@ kittens.push(name);
 return kittens;
 }
 
-// console.log(destructivelyAppendKitten('Ralph'));
+console.log(destructivelyAppendKitten('Ralph'));
 
 // destructivelyPrependKitten(name){
 //   kittens.shift(name);
