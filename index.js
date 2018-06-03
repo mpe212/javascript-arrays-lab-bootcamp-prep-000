@@ -9,46 +9,46 @@ destructivelyAppendKitten(name){
 
 console.log(destructivelyAppendKitten('Ralph'));
 
-destructivelyPrependKitten(name){
-  kittens.shift(name);
-  return kittens;
-}
+// destructivelyPrependKitten(name){
+//   kittens.shift(name);
+//   return kittens;
+// }
 
-destructivelyPrependKitten("Bob");
+// destructivelyPrependKitten("Bob");
 
-destructivelyRemoveLastKitten(){
-  kittens.pop();
-  return kittens;
-}
+// destructivelyRemoveLastKitten(){
+//   kittens.pop();
+//   return kittens;
+// }
 
-destructivelyRemoveFirstKitten(){
-  kittens.unshift();
-  return kittens;
-}
+// destructivelyRemoveFirstKitten(){
+//   kittens.unshift();
+//   return kittens;
+// }
 
-appendKitten(name){
-  var newKittens = [...kittens, name];
-  return newKittens;
-}
+// appendKitten(name){
+//   var newKittens = [...kittens, name];
+//   return newKittens;
+// }
 
-appendKitten("Broom");
+// appendKitten("Broom");
 
-prependKitten(name){
-  var newKittens = [name, ...kittens];
-  return newKittens;
-}
+// prependKitten(name){
+//   var newKittens = [name, ...kittens];
+//   return newKittens;
+// }
 
-prependKitten("Arnold");
+// prependKitten("Arnold");
 
-removeLastKitten(){
-  var newKittens = kittens.slice(0,kittens.length-1);
-  return newKittens;
-}
+// removeLastKitten(){
+//   var newKittens = kittens.slice(0,kittens.length-1);
+//   return newKittens;
+// }
 
-removeFirstKitten(){
-  var newKittens = kittens.slice(1);
-  return newKittens;
-}
+// removeFirstKitten(){
+//   var newKittens = kittens.slice(1);
+//   return newKittens;
+// }
 
 
 
