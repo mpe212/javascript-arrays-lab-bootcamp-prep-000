@@ -40,7 +40,7 @@ function prependKitten(name){
   return newKittens;
 }
 
-prependKitten("Arnold");
+console.log(prependKitten("Arnold"));
 
 // removeLastKitten(){
 //   var newKittens = kittens.slice(0,kittens.length-1);
