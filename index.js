@@ -21,4 +21,7 @@ destructivelyRemoveLastKitten(){
   return kittens;
 }
 
-destructivelyRemoveFirstKitten()
+destructivelyRemoveFirstKitten(){
+  kittens.unshift();
+  return kittens;
+}
