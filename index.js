@@ -9,3 +9,6 @@ destructivelyAppendKitten(name){
 
 destructivelyAppendKitten('Ralph');
 
+destructivelyPrependKitten(name){
+  kittens.unshift(name);
+}
