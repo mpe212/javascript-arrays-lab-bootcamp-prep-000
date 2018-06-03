@@ -28,14 +28,14 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 // }
 // console.log(destructivelyRemoveFirstKitten(kittens));
 
-function appendKitten(name){
-  var newKittens = [...kittens, name];
-  return newKittens;
-}
+// function appendKitten(name){
+//   var newKittens = [...kittens, name];
+//   return newKittens;
+// }
 
-console.log(appendKitten("Broom"));
+// console.log(appendKitten("Broom"));
 
-// prependKitten(name){
+// function prependKitten(name){
 //   var newKittens = [name, ...kittens];
 //   return newKittens;
 // }
