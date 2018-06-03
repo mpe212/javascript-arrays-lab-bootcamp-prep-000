@@ -41,7 +41,7 @@ prependKitten(name){
 prependKitten("Arnold");
 
 removeLastKitten(){
-  
+  var newKittens = 
 }
 
 removeFirstKitten(){
