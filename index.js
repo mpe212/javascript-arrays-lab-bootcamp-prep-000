@@ -7,7 +7,7 @@ destructivelyAppendKitten(name){
  return kittens;
 }
 
-destructivelyAppendKitten('Ralph');
+console.log(destructivelyAppendKitten('Ralph'));
 
 destructivelyPrependKitten(name){
   kittens.shift(name);
