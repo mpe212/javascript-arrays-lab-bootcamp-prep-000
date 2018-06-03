@@ -33,7 +33,7 @@ function appendKitten(name){
   return newKittens;
 }
 
-appendKitten("Broom");
+console.log(appendKitten("Broom"));
 
 // prependKitten(name){
 //   var newKittens = [name, ...kittens];
