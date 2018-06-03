@@ -50,8 +50,9 @@ function removeLastKitten(){
 removeLastKitten();
 
 
-// removeFirstKitten(){
+// function removeFirstKitten(){
 //   var newKittens = kittens.slice(1);
+    console.log(newKittens);
 //   return newKittens;
 // }
 
