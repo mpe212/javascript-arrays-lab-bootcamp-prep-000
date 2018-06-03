@@ -26,4 +26,11 @@ destructivelyRemoveFirstKitten(){
   return kittens;
 }
 
+appendKitten(name){
+  
+  
+}
+
+appendKitten("Broom");
+
 
