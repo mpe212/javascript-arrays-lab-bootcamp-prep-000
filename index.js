@@ -27,8 +27,8 @@ destructivelyRemoveFirstKitten(){
 }
 
 appendKitten(name){
-  
-  
+  newKittens = [kittens..., name];
+  return newKittens;
 }
 
 appendKitten("Broom");
